@@ -1,9 +1,9 @@
 body {
 	background: black;
+	font-family: "Caveat", cursive;
 }
 
 * {
-	border: 1px dashed red;
 	min-height: 10px;
 }
 
@@ -16,6 +16,7 @@ body {
 
 .postcard-header {
 	display: flex;
+	padding: 10px;
 }
 
 .postcard-header img {
@@ -33,15 +34,27 @@ body {
 }
 
 .body-left p:first-child {
-	margin-top: x;
+	margin-top: 0;
 }
 
 .body-left,
 .body-right {
-	padding: x;
+	padding: 10px;
 }
 
 input {
-	border: x;
-	border-bottom: x;
+	border: none;
+	border-bottom: grey 1px solid;
+	font-family: "Caveat", cursive;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: lightgrey;
+	padding: 5px 10px;
+	font-family: "Caveat", cursive;
+	border: none;
 }
